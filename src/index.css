@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300&display=swap');
+
+
+body{
+  font-family: "Poppins", "Open Sans", helvetica, arial, sans-serif;
+  color: #272727;
+  margin: 50px;
+  background-image: url("./assets/fondo-pokemon.png");
+  background-size: contain;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 20px;
+  background-image: linear-gradient(142.04deg, #71CC98 -2.3%, rgba(106, 237, 255, 0.3) 42.38%, rgba(100, 171, 237, 1) 74.14%);
+}
+
+.name{
+  font-size: 22px;
+}
+
+.name:first-letter {
+  text-transform: uppercase;
+}
+
+.weight{
+  font-style: italic;
+}
+
+.height{
+  font-style: italic;
+}
+.image{
+  width: 150px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
